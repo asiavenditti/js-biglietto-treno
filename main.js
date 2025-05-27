@@ -43,14 +43,14 @@ console.log(fullPrice)
 
 if (ageUser < 18) {
     const youngPrice = fullPrice - (fullPrice * 20 / 100);
-    console.log(youngPrice.toFixed(2))
+    console.log(youngPrice.toFixed(2) + "€")
 
 } else if (ageUser > 65) {
     const seniorPrice = fullPrice - (fullPrice * 40 / 100);
-    console.log(seniorPrice.toFixed(2))
+    console.log(seniorPrice.toFixed(2) + "€")
 
 } else {
-    console.log(fullPrice.toFixed(2))
+    console.log(fullPrice.toFixed(2) + "€")
 }
 
 // # L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
