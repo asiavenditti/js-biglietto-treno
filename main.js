@@ -31,4 +31,12 @@ const ageUser = parseInt(prompt("Quanti anni hai?"));
 console.log(ageUser);
 
 
+// # calcolare il prezzo totale del viaggio, secondo queste regole: il prezzo del biglietto è definito in base ai km(0.21 € al km)
+// creo la variabile "prezzo per chilometro" per stabilire subito dopo il "prezzo pieno" attraverso l'utilizzo degli operatori matematici (*)
+const priceperKm = 0.21
+
+const fullPrice = priceperKm * kmUser;
+console.log(fullPrice)
+
+
 
