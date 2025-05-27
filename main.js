@@ -8,16 +8,27 @@
  100km, 10 anni => prezzo corretto: €16.80
  100km, 70 anni => prezzo corretto: €12.60
 
-Tools:
+ Tools:
 
 - Variabili: const, let
-- Prompt 
+- Prompt
 - Number/parseInt/parseFloat
 - Operatori matematici: + - * / %
 - Operatori di confronto: > = < == !==
-- if/else 
+- if/else
 - console.log
 
-\*
+*/
+
+
+//# il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
+
+// creo le due variabili e le stampo a video
+const kmUser = Number(prompt("Quanti chilometri devi percorrere?"));
+console.log(kmUser);
+
+const ageUser = parseInt(prompt("Quanti anni hai?"));
+console.log(ageUser);
+
 
 
