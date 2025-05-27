@@ -38,5 +38,27 @@ const priceperKm = 0.21
 const fullPrice = priceperKm * kmUser;
 console.log(fullPrice)
 
+// # va applicato uno sconto del 20 % per i minorenni - va applicato uno sconto del 40 % per gli over 65.
+// applico lo sconto in base all'età dei viaggiatori sfruttando i conditional statements e creo le variabili Young e Senior (if/else)
+
+if (ageUser < 18) {
+    const youngPrice = fullPrice - (fullPrice * 20 / 100);
+    console.log(youngPrice.toFixed(2))
+
+} else if (ageUser > 65) {
+    const seniorPrice = fullPrice - (fullPrice * 40 / 100);
+    console.log(seniorPrice.toFixed(2))
+
+} else {
+    console.log(fullPrice.toFixed(2))
+}
+
+// # L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
+
+// ho usato .toFixed(n) per stampare il prezzo scontato con 2 decimali
+
+
+
+
 
 
